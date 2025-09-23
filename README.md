@@ -10,5 +10,5 @@ QuickStore is an API Application, made with FastApi.
 
 ## Configuration
 
-- Adding requirements.txt: `pip freeze > requirements.txt'` 
+- Adding requirements.txt: `pip freeze > requirements.txt` 
 
