@@ -8,9 +8,10 @@ class Settings(BaseSettings):
     APP_HOST: str
     APP_PORT: int
     DATABASE_URL: str
+    DATABASE_NAME: str
 
     class Config:
-        env_file = ".env"
+        env_file = "app/.env"
         env_file_encoding = "utf-8"
 
 # Create an instance of the Settings class
