@@ -8,7 +8,7 @@ pwd_context = CryptContext(
 """
 Hashes a plain password and returns the hashed password.
 """
-def has_password(plain: str) -> str:
+def hash_password(plain: str) -> str:
     return pwd_context.hash(plain)
 
 """
